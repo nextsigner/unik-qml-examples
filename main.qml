@@ -4,7 +4,7 @@ ApplicationWindow{
 	id: app
 	visible: true
 	visibility: 'Maximized'
-	color: 'blue'
+	color: 'green'
 	Text{
 		text: 'Unik Qml Examples!'
 		font.pixelSize: 24
