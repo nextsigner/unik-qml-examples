@@ -1,6 +1,10 @@
 import QtQuick 2.0
 import QtQuick.Controls 2.0
-Item{
+ApplicationWindow{
+    id: app
+    visible: true
+    visibility: 'Maximized'
+    color: 'blue'
     Text{
 		text: 'App1!'
 		font.pixelSize: 24
