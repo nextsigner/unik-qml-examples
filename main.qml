@@ -4,11 +4,12 @@ ApplicationWindow{
 	id: app
 	visible: true
 	visibility: 'Maximized'
-	color: 'red'
+	color: 'blue'
 	Text{
 		text: 'Unik Qml Examples!'
 		font.pixelSize: 24
 		color: 'white'
+		anchors.centerIn: parent
 	}
 
 }
